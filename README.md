@@ -31,12 +31,12 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://ux.plerdy.com/screens/2022-04-27/5eefc93f99646065d652ec98015b2f59.jpeg)
 
 ### Links
 
 - Solution URL: [click here](https://github.com/Mohannad-AlDardiri/advice-generator)
-- Live Site URL: [click here](https://your-live-site-url.com)
+- Live Site URL: [click here](https://mohannad-aldardiri.github.io/advice-generator/)
 
 ## My process
 
