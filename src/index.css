@@ -1,0 +1,84 @@
+:root {
+  /* primary */
+  --lightcyan: hsl(193, 38%, 86%);
+  --neongreen: hsl(150, 100%, 66%);
+
+  --grayishBlue: hsl(217, 19%, 38%);
+  --darkgrayishblue: hsl(217, 19%, 24%);
+  --darkblue: hsl(218, 23%, 16%);
+}
+html {
+  height: 100vh;
+}
+body {
+  font-family: "Manrope", serif;
+  background-color: var(--darkblue);
+  padding: 0rem 1rem;
+  /* padding-top: 40%; */
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advice {
+  background-color: var(--darkgrayishblue);
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  position: relative;
+  text-align: center;
+  width: 18.35rem;
+}
+.advice > div {
+  display: flex;
+  flex-direction: column;
+}
+.advice > div * {
+  margin-bottom: 1.5rem;
+}
+.advice h5 {
+  color: var(--neongreen);
+  margin-top: 0.25rem;
+  font-size: 10px;
+  letter-spacing: 0.25rem;
+}
+.advice blockquote {
+  color: var(--lightcyan);
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 800;
+  font-size: 28px;
+}
+.advice > div > picture {
+  width: 100%;
+}
+.advice > div > picture img {
+  margin-bottom: 0;
+}
+
+.advice button {
+  position: absolute;
+  background: var(--neongreen);
+  border-radius: 50%;
+  padding: 1rem;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 0;
+  border-width: 0;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.25s;
+}
+.advice button:hover {
+  box-shadow: 0px 0px 30px 0px var(--neongreen);
+}
+.advice img.dice {
+  margin-bottom: 0;
+}
+@media (min-width: 640px) {
+  .advice {
+    width: 27.75rem;
+  }
+}

@@ -1,0 +1,2 @@
+const AdviceIDEL=document.querySelector(".advice h5"),ParagraphEL=document.querySelector(".advice > div blockquote"),AdviceContainer=document.querySelector(".advice > div");function fetchAdvice(){let e;fetch("https://api.adviceslip.com/advice").then((e=>e.json())).then((c=>e=c.slip)).then((()=>generateAdvice(e)))}function generateAdvice(e){AdviceIDEL.innerHTML=`ADVICE #${e.id}`,ParagraphEL.innerHTML=`&ldquo;${e.advice}&rdquo;`}
+//# sourceMappingURL=index.js.map
