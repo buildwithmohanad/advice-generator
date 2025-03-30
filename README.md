@@ -35,8 +35,8 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ### Links
 
-- Solution URL: [click here](https://github.com/Mohannad-AlDardiri/advice-generator)
-- Live Site URL: [click here](https://mohannad-aldardiri.github.io/advice-generator/)
+- Solution URL: [click here](https://github.com/buildwithmohanad/advice-generator)
+- Live Site URL: [click here](https://buildwithmohanad.github.io/advice-generator/)
 
 ## My process
 
@@ -51,5 +51,5 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Author
 
-- Frontend Mentor - [@Mohannad-AlDardiri](https://www.frontendmentor.io/profile/Mohannad-AlDardiri)
+- Frontend Mentor - [@buildwithmohanad](https://www.frontendmentor.io/profile/buildwithmohanad)
 - Twitter - [@MohanadDardiry](https://www.twitter.com/MohanadDardiry)
